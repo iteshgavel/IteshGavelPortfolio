@@ -1100,7 +1100,7 @@ button:focus {
 }
 .footer_area .footer_social {
   text-align: center;
-  margin: 20px 0 30px;
+  margin: 25px 0 30px;
 }
 .footer_area .footer_social a {
   padding: 0 15px;
@@ -1115,7 +1115,7 @@ button:focus {
 }
 @media (max-width: 576px) {
   .footer_area .footer_social a i {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 0 0;
   }
 }
