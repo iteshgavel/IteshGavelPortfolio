@@ -552,7 +552,7 @@ button:focus {
   vertical-align: middle;
 }
 .single-skill-item img {
-  max-width: 200px;
+  max-width: 80px;
   margin: 0 auto;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
@@ -1130,4 +1130,15 @@ button:focus {
 }
 .footer_area .footer_bottom a {
   color: #7c2ae8;
+}
+
+.ViewOnWeb {
+  border-radius: 10px;
+  color: #008bcc;
+  height: auto;
+  padding: 10px;
+  font-size: 19px;
+  width: 46%;
+  float: left;
+  margin: 0% 2% 0% 2%;
 }
