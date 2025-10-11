@@ -118,20 +118,20 @@ button:focus {
   box-shadow: none;
 }
 .section_gap {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 @media (max-width: 1199px) {
   .section_gap {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 .main_title {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 @media (max-width: 1199px) {
   .main_title {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 .main_title h2 {
@@ -510,12 +510,12 @@ button:focus {
 }
 .banner_area .banner_inner .banner_content {
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 @media (max-width: 991px) {
   .banner_area .banner_inner .banner_content {
     margin-left: 0;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 }
 .banner_area .banner_inner .banner_content h2 {
@@ -596,7 +596,7 @@ button:focus {
 }
 @media (max-width: 1199px) {
   .skills_area {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 .single-skill-item {
@@ -667,7 +667,7 @@ button:focus {
 }
 .contain_grid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(auto-repeat, 240px);
   justify-items: center;
@@ -804,7 +804,7 @@ button:focus {
   padding: 50px 55px;
   margin-bottom: 20px;
   margin-left: 10px;
-  margin: 0 10px 80px;
+  margin: 0 10px 50px;
   height: auto;
   box-shadow: 0 5px 5px 0 rgba(162, 162, 162, 0.5);
   -webkit-transition: all 0.2s ease 0s;
@@ -950,7 +950,7 @@ button:focus {
     margin-right: 28px;
   }
   .home_banner_area .banner_inner {
-    padding: 100px 0;
+    padding: 60px 0;
   }
   .header_area .navbar .primary_btn {
     margin-left: 40px;
@@ -1066,8 +1066,8 @@ button:focus {
     display: block;
   }
   .footer_area {
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
     background-image: none !important;
     background-color: #fcf8ff;
   }
@@ -1148,8 +1148,8 @@ button:focus {
     margin-top: 0;
   }
   .section_gap {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .main_title h2 {
     font-size: 25px;
@@ -1586,7 +1586,6 @@ body {
 }
 
 [data-theme="dark"] .single-skill-item {
-  background-color: var(--card-bg);
   border: none;
   color: var(--text-color);
 }
@@ -1805,7 +1804,7 @@ body {
   position: relative;
   z-index: 2;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 6px 12px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border-radius: 20px;
@@ -1815,7 +1814,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  min-width: 140px;
+  min-width: 100px;
 }
 
 /* Center alignment for button containers */
@@ -1913,9 +1912,11 @@ body {
   border-radius: 10px;
   color: #008bcc;
   height: auto;
-  padding: 10px;
-  font-size: 19px;
-  width: 46%;
-  float: left;
-  margin: 0% 2% 0% 2%;
+  padding: 8px 16px;
+  font-size: 16px;
+  width: auto;
+  display: inline-block;
+  margin: 10px auto;
+  min-width: 120px;
+  text-align: center;
 }
