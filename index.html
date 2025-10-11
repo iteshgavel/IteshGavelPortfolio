@@ -1,85 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <title>Itesh Gavel</title>
-    <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta name="robots" content="follow" />
-    <meta
-      name="viewport"
-      content="width= sdevice-width, initial-scale=1, shrink-to-fit=yes"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="theme-color" content="#377cd7" />
-    <!-- Icon tags -->
+    
     <link rel="icon" href="img/IteshNewLogo.jpg" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/photo2.jpg" />
-    <!-- CSS links -->
-    <link rel="stylesheet" rel="preload" as="style" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.6/devicon.min.css"
-      integrity="sha512-1HHB+CZQVg8BlFmv+YC6JsaMlDxC4bJslhX/sag7eE0TBuF3FhzYWOfdsr8+8MQKBI8bYCGdvx2Ljd5oo2OnIg=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css"
-    />
-
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
-      integrity="sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="vendors/owl-carousel/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      rel="preload"
-      as="style"
-      href="vendors/nice-select/css/nice-select.css"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/IteshNewLogo.jpg" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" 
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" 
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
   </head>
 
   <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-container">
+        <div class="loading-logo">
+          <img src="img/IteshNewLogo.jpg" alt="Itesh Gavel" class="loading-avatar">
+        </div>
+        <div class="loading-text">
+          <h3>Itesh Gavel</h3>
+          <p>Loading Portfolio...</p>
+        </div>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </div>
+
     <!--================ Start Header Area ===================-->
     <header class="header_area">
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-primary">
           <div class="container">
             <i class="navbar-brand logo_h">
-              <img
-                src="img/IteshNewLogo.jpg"
-                style="border-radius: 50%; height: 50px; width: 50px"
-                alt="kpcodes_dp"
-              />
+              <img src="img/IteshNewLogo.jpg" class="logo-img" alt="Itesh Gavel Logo" />
             </i>
-            <h2 class="gradient-color" style="width: fit-content">Itesh</h2>
+            <h2 class="gradient-color brand-text">Itesh</h2>
             <button
               class="navbar-toggler"
               type="button"
@@ -121,6 +88,13 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                
+                <!-- Theme Toggle -->
+                <li class="nav-item d-flex align-items-center">
+                  <button id="theme-toggle" class="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-moon theme-icon"></i>
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
@@ -142,7 +116,6 @@
                 </h2>
                 <h2
                   class="text-uppercase typewrite"
-                  style="color: black"
                   data-period="1300"
                   data-type='["Software Engineer 2 @ MAQ Software", "Microsoft Certified: Fabric Data and Analytics Engineer", "Techy Geek", "Front-End Web Developer"]'
                 >
@@ -164,27 +137,11 @@
             <div class="col-lg-5">
               <div class="home_right_img">
                 <img
+                  class="banner-image"
                   src="img/banners/undraw_feeling_proud_qne1.svg"
-                  alt="home-banner"
-                  style="width: 600px"
+                  alt="Feeling Proud Banner"
                 />
               </div>
-              <style>
-                @media (max-width: 900px) {
-                  .home_banner_area .home_right_img {
-                    text-align: center;
-                  }
-                  .home_banner_area .home_right_img img {
-                    float: center;
-                    max-width: 50%;
-                  }
-
-                  .home_banner_area .banner_content {
-                    float: none;
-                    max-width: 100%;
-                  }
-                }
-              </style>
             </div>
           </div>
         </div>
@@ -199,10 +156,9 @@
           <div class="col-lg-5">
             <div class="about_img">
               <img
-                class=""
+                class="about-image"
                 src="img/banners/undraw_hacker_mindset_gjwq.png"
-                alt="about-us"
-                style="width: 800px"
+                alt="Hacker Mindset Illustration"
               />
             </div>
           </div>
@@ -254,7 +210,7 @@
         </div>
         <div class="contain_grid">
           <!---Experience 1---->
-          <div class="single-portfolio-item d-table" style="text-align: left">
+          <div class="single-portfolio-item d-table text-left">
             <h2>
               Software Engineer 2 @
               <a href="https://maqsoftware.com/">MAQ Software</a>
@@ -285,7 +241,7 @@
           </div>
 
           <!---Experience 2---->
-          <div class="single-portfolio-item d-table" style="text-align: left">
+          <div class="single-portfolio-item d-table text-left">
             <h2>
               Software Engineer 1 @
               <a href="https://maqsoftware.com/">MAQ Software</a>
@@ -315,7 +271,7 @@
           </div>
 
           <!---Experience 3---->
-          <div class="single-portfolio-item d-table" style="text-align: left">
+          <div class="single-portfolio-item d-table text-left">
             <h2>
               Associate Software Engineer @
               <a href="https://maqsoftware.com/">MAQ Software</a>
@@ -359,6 +315,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/fabric.png" alt="Microsoft Fabric" />
+                    <h6>Microsoft Fabric</h6>
                   </div>
                 </div>
               </div>
@@ -368,6 +325,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/adf.png" alt="Azure Data Factory" />
+                    <h6>Azure Data Factory</h6>
                   </div>
                 </div>
               </div>
@@ -377,6 +335,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/databricks.png" alt="Azure Databricks" />
+                    <h6>Azure Databricks</h6>
                   </div>
                 </div>
               </div>
@@ -386,6 +345,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/azuredevops.png" alt="Azure DevOps" />
+                    <h6>Azure DevOps</h6>
                   </div>
                 </div>
               </div>
@@ -395,6 +355,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/azure.png" alt="Azure Portal" />
+                    <h6>Azure</h6>
                   </div>
                 </div>
               </div>
@@ -405,6 +366,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/mysql.png" alt="SQL" />
+                    <h6>SQL</h6>
                   </div>
                 </div>
               </div>
@@ -414,6 +376,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/pyspark.png" alt="PySpark" />
+                    <h6>PySpark</h6>
                   </div>
                 </div>
               </div>
@@ -423,6 +386,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/etl.png" alt="ETL and Data Modeling" />
+                    <h6>ETL & Data Modeling</h6>
                   </div>
                 </div>
               </div>
@@ -433,6 +397,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/powerbi.png" alt="Power BI" />
+                    <h6>Power BI</h6>
                   </div>
                 </div>
               </div>
@@ -442,6 +407,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/dax.png" alt="DAX" />
+                    <h6>DAX</h6>
                   </div>
                 </div>
               </div>
@@ -455,6 +421,7 @@
                       src="img/python.png"
                       alt="Python Programming Language"
                     />
+                    <h6>Python</h6>
                   </div>
                 </div>
               </div>
@@ -464,6 +431,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/cpp.png" alt="C++ Programming Language" />
+                    <h6>C++</h6>
                   </div>
                 </div>
               </div>
@@ -476,6 +444,7 @@
                       src="img/githubcopilot.png"
                       alt="GitHub Copilot and AI Tools"
                     />
+                    <h6>GitHub Copilot</h6>
                   </div>
                 </div>
               </div>
@@ -489,6 +458,7 @@
                       src="img/javascript.png"
                       alt="JavaScript Programming Language"
                     />
+                    <h6>JavaScript</h6>
                   </div>
                 </div>
               </div>
@@ -501,6 +471,7 @@
                       src="img/typescript.png"
                       alt="TypeScript Programming Language"
                     />
+                    <h6>TypeScript</h6>
                   </div>
                 </div>
               </div>
@@ -510,6 +481,7 @@
                 <div class="single-skill-item d-table">
                   <div class="d-table-cell text-center">
                     <img src="img/react.png" alt="React.js Framework" />
+                    <h6>React.js</h6>
                   </div>
                 </div>
               </div>
@@ -523,6 +495,7 @@
                       src="img/dsa.png"
                       alt="Data Structures and Algorithms"
                     />
+                    <h6>Data Structures & Algorithms</h6>
                   </div>
                 </div>
               </div>
@@ -535,6 +508,7 @@
                       src="img/csconcepts.png"
                       alt="OOPs, DBMS, OS, Computer Networks"
                     />
+                    <h6>CS Fundamentals</h6>
                   </div>
                 </div>
               </div>
@@ -764,18 +738,11 @@
             <div class="footer_top flex-column">
               <div class="footer_logo">
                 <img
-                  class=".img-fluid"
+                  class="profile-image"
                   src="img/IteshNewLogo.jpg"
-                  style="height: 200px; width: 200px; border-radius: 50%"
-                  alt="iteshgavel"
+                  alt="Itesh Kumar Gavel"
                 />
-                <p
-                  style="
-                    font-family: Arial, Helvetica, sans-serif;
-                    margin-top: 30px;
-                    font-size: x-large;
-                  "
-                >
+                <p class="social-title">
                   Social Profiles
                 </p>
               </div>
@@ -814,19 +781,19 @@
             class="col-lg-8 col-sm-12 footer_text"
             href="https://en.wikipedia.org/wiki/MIT_License"
             ><img
+              class="footer-license-image"
               src="./img/mit_license.png"
-              alt="mit_logo"
-              style="
-                height: 45px;
-                width: 65px;
-                text-align: start;
-                padding-top: 7px;
-              "
+              alt="MIT License Logo"
           /></a>
         </div>
       </div>
     </footer>
     <!--================End Footer Area =================-->
+
+    <!-- Go to top button -->
+    <button id="go-to-top-btn" class="go-to-top" title="Go to top">
+      <i class="fa fa-chevron-up"></i>
+    </button>
 
     <!--====Java Scripting Part start=========-->
     <script
@@ -855,7 +822,12 @@
     <script defer src="js/jquery.ajaxchimp.min.js"></script>
     <script defer src="js/mail-script.js"></script>
     <script defer src="js/theme.js"></script>
-    <script defer src="js/typingtext.js" rel="preload" as="style"></script>
+    <script defer src="js/typingtext.js"></script>
+    <script defer src="js/go-to-top.js"></script>
+    <script defer src="js/navigation-enhanced.js"></script>
+    <script defer src="js/loading-screen.js"></script>
+    <script defer src="js/theme-toggle.js"></script>
+    <script defer src="js/scroll-animations.js"></script>
     <!--====Java Scripting Part end=========-->
   </body>
 </html>
