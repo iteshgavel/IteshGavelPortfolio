@@ -25,9 +25,17 @@ h6 {
   color: #3125d9;
 }
 .header {
-  font-size: xx-large;
+  font-size: 2.5rem;
   font-weight: 900;
   color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #008bcc 0%, #7c2ae8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(124, 42, 232, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Logo and Brand Styles */
@@ -186,6 +194,16 @@ button:focus {
 /* Typewrite text styling */
 .typewrite {
   color: #000;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #008bcc 0%, #7c2ae8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(124, 42, 232, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
 }
 .primary_btn {
   display: inline-block;
