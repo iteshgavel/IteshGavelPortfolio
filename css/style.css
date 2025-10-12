@@ -1,4 +1,18 @@
+/*
+===============================================
+ITESH GAVEL PORTFOLIO - MAIN STYLESHEET
+===============================================
+Author: Itesh Kumar Gavel
+Version: 2.1 (Optimized but Stable)
+Last Updated: October 2025
+===============================================
+*/
+
+/* FONT IMPORTS */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700);
+
+/* BASE TYPOGRAPHY */
+/* BASE TYPOGRAPHY */
 body {
   line-height: 26px;
   font-size: 15px;
@@ -6,6 +20,8 @@ body {
   font-weight: 400;
   color: #666;
 }
+
+/* HEADING STYLES */
 h1,
 h2,
 h3,
@@ -16,6 +32,9 @@ h6 {
   font-weight: 500;
   color: #000;
 }
+
+/* UTILITY CLASSES */
+/* UTILITY CLASSES */
 .list {
   list-style: none;
   margin: 0;
@@ -24,6 +43,8 @@ h6 {
 .link {
   color: #3125d9;
 }
+
+/* HEADER & NAVIGATION TYPOGRAPHY */
 .header {
   font-size: 2.5rem;
   font-weight: 900;
@@ -72,7 +93,7 @@ h6 {
   text-shadow: 0 2px 8px rgba(124, 42, 232, 0.4);
 }
 
-/* Banner Images */
+/* BANNER & IMAGE COMPONENTS */
 .banner-image {
   width: 600px;
   max-width: 100%;
@@ -85,6 +106,7 @@ h6 {
   height: auto;
 }
 
+/* RESPONSIVE BANNER STYLES */
 @media (max-width: 900px) {
   .home_banner_area .home_right_img {
     text-align: center;
@@ -100,7 +122,7 @@ h6 {
   }
 }
 
-/* Profile and Social Section */
+/* PROFILE & SOCIAL SECTION */
 .profile-image {
   height: 200px;
   width: 200px;
@@ -142,6 +164,8 @@ button:focus {
   outline: 0;
   box-shadow: none;
 }
+
+/* LAYOUT & SPACING UTILITIES */
 .section_gap {
   padding: 60px 0;
 }
@@ -222,6 +246,8 @@ button:focus {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.4;
 }
+
+/* BUTTON COMPONENTS */
 .primary_btn {
   display: inline-block;
   color: #fff;
@@ -267,6 +293,10 @@ button:focus {
   box-shadow: none;
   background-clip: border-box;
 }
+
+/* ===============================================
+   HEADER & NAVIGATION AREA
+   =============================================== */
 .header_area {
   position: absolute;
   width: 100%;
@@ -626,6 +656,10 @@ button:focus {
     display: block;
   }
 }
+
+/* ===============================================
+   SKILLS SECTION
+   =============================================== */
 .skills_area {
   padding-bottom: 170px;
 }
