@@ -48,11 +48,28 @@ h6 {
 }
 
 .brand-text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--text-color, #000);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.brand-text:hover,
+.brand-text.active {
+  text-decoration: none;
+  transform: translateY(-1px) scale(1.05);
+}
+
+.brand-text:hover {
+  text-shadow: 0 2px 8px rgba(124, 42, 232, 0.4);
 }
 
 /* Banner Images */
