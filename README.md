@@ -141,4 +141,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by Itesh Kumar Gavel**
 
-*Software Engineer 2 @ MAQ Software | Microsoft Certified: Fabric Data and Analytics Engineer*
+*Senior Data Engineer 2 @ Accordion | Microsoft Certified: Fabric Data and Analytics Engineer*
+
